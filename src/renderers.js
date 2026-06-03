@@ -61,7 +61,7 @@ export function detectCodeType(code) {
       trimmedCode.includes('<p') ||
       trimmedCode.includes('<span') ||
       trimmedCode.includes('<h1') ||
-      trimmedCode.includes('<body') ||
+      trimmedCode。includes('<body') ||
       trimmedCode.includes('<head') ||
       trimmedCode.includes('<style') ||
       trimmedCode.includes('<script') ||
@@ -204,7 +204,7 @@ function renderHtml(content) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML-GO 查看器</title>
+  <title>HTML2URL 查看器</title>
   ${viewerIcons()}
   <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
@@ -286,7 +286,7 @@ function renderMarkdown(content) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML-GO Markdown查看器</title>
+  <title>HTML2URL Markdown查看器</title>
   ${viewerIcons()}
   <link rel="stylesheet" href="/css/markdown-bytedance.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
@@ -358,7 +358,7 @@ function renderSvg(content) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML-GO SVG查看器</title>
+  <title>HTML2URL SVG查看器</title>
   ${viewerIcons()}
   <style>
     body {
@@ -415,7 +415,7 @@ function renderMermaid(content) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML-GO Mermaid查看器</title>
+  <title>HTML2URL Mermaid查看器</title>
   ${viewerIcons()}
   <script src="https://cdn.jsdelivr.net/npm/mermaid@11.6.0/dist/mermaid.min.js"></script>
   <style>
