@@ -2,11 +2,11 @@ const APP_NAME = 'HTML-GO';
 
 export function escapeHtml(value = '') {
   return String(value)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;');
+    。replace(/&/g, '&amp;')
+    。replace(/</g, '&lt;')
+    。replace(/>/g, '&gt;')
+    。replace(/"/g, '&quot;')
+    。replace(/'/g, '&#039;');
 }
 
 function appTitleSpans() {
@@ -105,7 +105,7 @@ function appHeader() {
 function appFooter() {
   return `
     <footer class="app-footer">
-      <p class="footer-text">@2025 <a href="https://x.com/vista8" target="_blank" rel="noopener noreferrer">向阳乔木</a></p>
+      <p class="footer-text">@2026 <a href="https://web.yormb.cn" target="_blank" rel="noopener noreferrer">运营程序猿</a></p>
     </footer>`;
 }
 
