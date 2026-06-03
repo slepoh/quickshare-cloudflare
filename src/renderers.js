@@ -61,7 +61,7 @@ export function detectCodeType(code) {
       trimmedCode.includes('<p') ||
       trimmedCode.includes('<span') ||
       trimmedCode.includes('<h1') ||
-      trimmedCode。includes('<body') ||
+      trimmedCode.includes('<body') ||
       trimmedCode.includes('<head') ||
       trimmedCode.includes('<style') ||
       trimmedCode.includes('<script') ||
